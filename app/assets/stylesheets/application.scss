@@ -16,6 +16,16 @@
 @import "bootstrap-sprockets";  /*ここを追加*/
 @import "bootstrap";            /*ここを追加*/
 
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.search_field {
+	margin-top: 20px;
+}
+
 header {
 	color:white;
 }
